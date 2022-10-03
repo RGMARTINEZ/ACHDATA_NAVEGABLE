@@ -1,0 +1,204 @@
+{
+    "max-periods": "36",
+    "action": {
+      "accept": "Aceptar",
+      "close": "Cerrar",
+      "edit": "Editar",
+      "next": "Siguiente",
+      "select": "Seleccionar...",
+      "send": "Enviar",
+      "update": "Actualizar",
+      "delete": "Borrar",
+      "today": "Hoy",
+      "download": "Descargar",
+      "export": "Exportar",
+      "retry": "Reintentar",
+      "save": "Guardar",
+      "yes": "Si",
+      "no": "No",
+      "revert": "Revertir",
+      "cancel": "Cancelar",
+      "download-file": "Descargar archivo",
+      "download-template": "Descargar plantilla"
+    },
+    "validation": {
+      "alphabetic": "{{val}} acepta caracteres alfabéticos",
+      "alphanumeric": "Este campo únicamente acepta caracteres alfanuméricos",
+      "email": "Este campo debe ser un email válido.",
+      "invalid": {
+        "date": "La fecha seleccionada es inválida",
+        "email": "Email inválido",
+        "general": "Información inválida",
+        "password": "Contraseña inválida"
+      },
+      "match": "Este campo no coincide con {{val}}.",
+      "max": {
+        "characters": "Se requieren máximo {{num}} caracteres",
+        "digits": "Se requieren máximo {{num}} dígitos",
+        "value": "El valor indicado debe ser menor o igual a {{val}}."
+      },
+      "min": {
+        "characters": "Se requieren mínimo {{num}} caracter(es)",
+        "date": "La fecha de nacimiento debe ser mayor a {{num}} año(s)",
+        "digits": "Se requieren mínimo {{num}} dígito(s)",
+        "value": "El valor debe ser mayor o igual a {{val}}."
+      },
+      "numeric": "Este campo debe ser numérico.",
+      "pattern": "Este campo no cumple con el formato esperado.",
+      "required": "Este campo es requerido.",
+      "required.termsAndConditions": "Debe aceptar los términos y condiciones para continuar",
+      "dates": {
+        "invalidRange": "Rango de fechas no válido",
+        "invalidDates": "Debe ingresar un rango de fechas.",
+        "invalidDate": "Debe ingresar una fecha válida."
+      }
+    },
+    "form": {
+      "firstName": "Nombres",
+      "lastName": "Apellidos",
+      "email": "Correo",
+      "success.title": "Registro exitoso",
+      "success.message": "Su registro en el formulario fue realizada exitosamente!"
+    },
+    "consultas": {
+      "title": "Consultas",
+      "initialDate": "Ingrese fecha inicial",
+      "finalDate": "Ingrese fecha final",
+      "minpsDate": "Fecha pago planilla",
+      "oinfDate": "Fecha procesado",
+      "date": "Fecha",
+      "available": "Disponibles",
+      "processed": "Procesados",
+      "reverted": "Revertidos",
+      "errors": "Errores",
+      "errorDetail": "Detalle error",
+      "errorDescription": "Descripción error",
+      "payrollNumber": "Número de planilla",
+      "payrollType": "Tipo de planilla",
+      "routeI": "Ruta y nombre archivo_I",
+      "routeA": "Ruta y nombre archivo_A",
+      "migrated": "Migrada",
+      "observation": "Observación",
+      "revertionDetail": "Detalle reversiones",
+      "contributorId": "ID del aportante",
+      "motive": "Motivo"
+    },
+    "migraciones": {
+      "title": "Proceso de Migración",
+      "state": "ESTADO: ",
+      "started": "EN EJECUCIÓN",
+      "stopped": "DETENIDO",
+      "start": "Iniciar",
+      "stop": "Detener"
+    },
+    "reversiones": {
+      "title": "Reversiones",
+      "insertPayrollNumber": "Ingrese número de planilla",
+      "payrollNumber": "Número de planilla",
+      "date": "Fecha de pago efectivo de la planilla",
+      "type": "Tipo de liquidación",
+      "id": "Identificación del aportante",
+      "value": "Valor planilla",
+      "code": "Código OI",
+      "insertReversionMotive": "Ingrese motivo de reversión",
+      "confirmDelete": "Se ha iniciado la eliminación del archivo seleccionado",
+      "errorDownload": "Error al descargar la planilla consultada.",
+      "errorPlanillaNumber": "El número de planilla debe ser numérico"
+      
+    },
+    "reintentar": {
+      "title": "Reversiones",
+      "insertPayrollNumber": "Ingrese número de planilla",
+      "payrollNumber": "Número de planilla",
+      "date": "Fecha de pago efectivo de la planilla",
+      "type": "Tipo de liquidación",
+      "id": "Identificación del aportante",
+      "value": "Valor planilla",
+      "code": "Código OI",
+      "insertReversionMotive": "Ingrese motivo de reversión",
+      "confirmReintentar": "Se ha iniciado el reintento de la migración del archivo(s) seleccionada(s).",
+      "errorDownload": "Error al descargar la planilla consultada.",
+      "errorPlanillaNumber": "El número de planilla debe ser numérico"
+      
+    },
+    "individuales": {
+      "title": "Consultas Individuales",
+      "noId": "Por favor ingrese un número de documento.",
+      "wrongId": "Número de documento no válido.",
+      "wrongIdType": "Número de documento no corresponde al tipo.",
+      "wrongPeriod": "Por favor ingrese un periodo entre 1 y 36.",
+      "idSpecialChars": "Número de documento con caracteres no permitidos."
+    },
+    "masivas": {
+      "incorrectFile": "El archivo debe contener mínimo 50 y máximo 2.000.000 registros para la consulta, el archivo cargado contiene {{num | number}} registros. Por favor intente nuevamente.",
+      "incorrectFileUsoDatos": "El archivo debe contener mínimo 10 y máximo 200 registros para el proceso, el archivo cargado contiene {{num | number}} registros. Por favor intente nuevamente.",
+      "incorrectFileExtendida": "El archivo debe contener mínimo 50 y máximo 500.000 registros para el proceso, el archivo cargado contiene {{num | number}} registros. Por favor intente nuevamente.",
+      "incorrectFileLegalConsolidated": "El archivo debe contener mínimo 1 y máximo 500.000 registros para el proceso, el archivo cargado contiene {{num | number}} registros. Por favor intente nuevamente."
+    },
+    "messages": {
+      "noResults": "No se encontraron resultados.",
+      "noPayrollSelected": "No se ha seleccionado ninguna planilla.",
+      "confirmRetry": "¿Está seguro que desea reintentar las planillas seleccionadas?",
+      "successRetry": "Las planillas se han enviado a reintentar.",
+      "failureRetry": "Error al reintentar las planillas",
+      "observationFailureLength": "Longitud de la observación no válida: ",
+      "observationSuccess": "Observación guardada.",
+      "observationFailure": "Error al guardar la observación",
+      "confirmMigrationState": "¿Está seguro que desea iniciar el proceso de migración?",
+      "cancelMigrationState": "¿Está seguro que desea detener el proceso de migración?",
+      "errorMigrationState": "Error al consultar el estado del proceso de migración. Consulte con el administrador.",
+      "errorMigrationState503": "Servicio no disponible. Consulte con el administrador.",
+      "errorMigrationState400": "Error al realizar la petición.",
+      "errorChangingMigrationState": "Error al cambiar el estado de migración",
+      "confirmDeletePlanilla": "¿Está seguro que desea eliminar el archivo seleccionado?",
+      "confirmJustification": "Por favor ingrese una justificación.", 
+      "migrationStarted": "El proceso de migración se ha iniciado.",
+      "migrationStopped": "El proceso de migración se ha detenido.",
+      "confirmReversion": "¿Está seguro que desea revertir la planilla?",
+      "reversionSuccess": "La planilla se ha enviado a reversión.",
+      "motiveFailureLength": "Longitud del motivo no es válida: ",
+      "errorsFailure": "Error al consultar los errores de la fecha seleccionada.",
+      "noInfoPILA": "No se encontró información en ACH Data",
+      "noInfoFilters": "No se encontró información asociada a los filtros ingresados",
+      "queryError": "Error al realizar la consulta.",
+      "minimoPrimerRangoSalario": "Los límites de salario son obligatorios en mínimo el primer rango",
+      "error": {
+        "service.unavailable": "Servicio no disponible",
+        "unauthorized": "El token ha expirado o es inválido.",
+        "forbidden": "No tiene los permisos necesarios para realizar esta acción.",
+        "useAuth": "Consulta no arroja información, titular revocó autorización para el uso de sus datos(Ley 1581 de 2012)."
+  
+      }    
+    },
+    "massive-queries": {
+      "section-name": "Mis Consultas Masivas",
+      "query-type": "Tipo de Consulta",
+      "query-date": "Fecha y hora de consulta",
+      "query-name": "Nombre de la consulta",
+      "query-filename-loaded": "Nombre del archivo cargado",
+      "query-num-processed": "Registros procesados",
+      "query-num-successful": "Registros exitosos",
+      "query-num-not-found": "Registros no encontrados",
+      "query-num-not-valid": "Registros no válidos",
+      "actions": "Acciones",
+      "type-natural-person": "Persona Natural",
+      "type-legal-person": "Persona Jurídica",
+      "warning": {
+        "download-results-zip": "Recuerde que la descarga del archivo podrá ser realizada una (1) sola vez.",
+        "download-results-zip-disclaimer": "La Entidad Financiera acepta que la información que está por consultar es para uso exclusivo de la entidad, y por lo tanto se compromete a no exponerla ni entregarla a terceros y a no darle un tratamiento distinto al definido en el contrato suscrito por las partes. Adicional a lo anterior, la entidad financiera declara que cuenta con las respectivas autorizaciones de los clientes que se encuentran en la base dispuesta para consulta y que dicha información es reservada. Lo anterior, con el fin de dar el debido tratamiento a los datos consultados en cumplimiento de la Ley 1581 de 2012 y demás regulaciones vigentes en materia de habeas data."
+      },
+      "error": {
+        "get-all-by-user.default": "Error al obtener consultas masivas realizadas por el usuario.",
+        "download-results-zip.default": "Error al descargar consulta masiva."
+      }
+    },
+    "massive-users": {
+      "error": {
+        "load-users": "Error al intentar cargar los usuarios en el sistema",
+        "download-template": "Error al intentar descargar la plantilla",
+        "empty-file": "El archivo que se intenta cargar está vacío, valide e intente de nuevo",
+        "file-not-selected": "Por favor, seleccionar un archivo"
+      }
+    }
+  }
+  

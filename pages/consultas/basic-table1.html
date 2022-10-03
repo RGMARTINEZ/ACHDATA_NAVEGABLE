@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>SOI DATA</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="../../vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../../vendors/base/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_horizontal-navbar.html -->
+        <div class="horizontal-menu">
+      <nav class="navbar top-navbar col-lg-12 col-12 p-0">
+        <div class="container-fluid">
+          <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between">
+            <ul class="navbar-nav navbar-nav-left">
+              <li class="nav-item ms-0 me-5 d-lg-flex d-none">
+                <a href="#" class="nav-link horizontal-nav-left-menu"><i class="mdi mdi-format-list-bulleted"></i></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex align-items-center justify-content-center" id="notificationDropdown" href="#" data-bs-toggle="dropdown">
+                  <i class="mdi mdi-bell mx-0"></i>
+                  <span class="count bg-success">2</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
+                  <p class="mb-0 font-weight-normal float-left dropdown-header">Notifications</p>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <div class="preview-icon bg-success">
+                          <i class="mdi mdi-information mx-0"></i>
+                        </div>
+                    </div>
+                    <div class="preview-item-content">
+                        <h6 class="preview-subject font-weight-normal">Application Error</h6>
+                        <p class="font-weight-light small-text mb-0 text-muted">
+                          Just now
+                        </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <div class="preview-icon bg-warning">
+                          <i class="mdi mdi-settings mx-0"></i>
+                        </div>
+                    </div>
+                    <div class="preview-item-content">
+                        <h6 class="preview-subject font-weight-normal">Settings</h6>
+                        <p class="font-weight-light small-text mb-0 text-muted">
+                          Private message
+                        </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <div class="preview-icon bg-info">
+                          <i class="mdi mdi-account-box mx-0"></i>
+                        </div>
+                    </div>
+                    <div class="preview-item-content">
+                        <h6 class="preview-subject font-weight-normal">New user registration</h6>
+                        <p class="font-weight-light small-text mb-0 text-muted">
+                          2 days ago
+                        </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-bs-toggle="dropdown">
+                  <i class="mdi mdi-email mx-0"></i>
+                  <span class="count bg-primary">4</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                  <p class="mb-0 font-weight-normal float-left dropdown-header">Messages</p>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <img src="../../images/faces/face4.jpg" alt="image" class="profile-pic">
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                        <h6 class="preview-subject ellipsis font-weight-normal">David Grey
+                        </h6>
+                        <p class="font-weight-light small-text text-muted mb-0">
+                          The meeting is cancelled
+                        </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <img src="../../images/faces/face2.jpg" alt="image" class="profile-pic">
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                        <h6 class="preview-subject ellipsis font-weight-normal">Tim Cook
+                        </h6>
+                        <p class="font-weight-light small-text text-muted mb-0">
+                          New product launch
+                        </p>
+                    </div>
+                  </a>
+                  <a class="dropdown-item preview-item">
+                    <div class="preview-thumbnail">
+                        <img src="../../images/faces/face3.jpg" alt="image" class="profile-pic">
+                    </div>
+                    <div class="preview-item-content flex-grow">
+                        <h6 class="preview-subject ellipsis font-weight-normal"> Johnson
+                        </h6>
+                        <p class="font-weight-light small-text text-muted mb-0">
+                          Upcoming board meeting
+                        </p>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link count-indicator "><i class="mdi mdi-message-reply-text"></i></a>
+              </li>
+              <li class="nav-item nav-search d-none d-lg-block ms-3">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="search">
+                        <i class="mdi mdi-magnify"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="search">
+                </div>
+              </li>	
+            </ul>
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+                <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/logo.svg" alt="logo"/></a>
+                <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+            </div>
+            <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item dropdown  d-lg-flex d-none">
+                  <button type="button" class="btn btn-inverse-primary btn-sm">Product </button>
+                </li>
+                <li class="nav-item dropdown d-lg-flex d-none">
+                  <a class="dropdown-toggle show-dropdown-arrow btn btn-inverse-primary btn-sm" id="nreportDropdown" href="#" data-bs-toggle="dropdown">
+                  Reports
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="nreportDropdown">
+                      <p class="mb-0 font-weight-medium float-left dropdown-header">Reports</p>
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-file-pdf text-primary"></i>
+                        Pdf
+                      </a>
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-file-excel text-primary"></i>
+                        Exel
+                      </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown d-lg-flex d-none">
+                  <button type="button" class="btn btn-inverse-primary btn-sm">Settings</button>
+                </li>
+                <li class="nav-item nav-profile dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
+                    <span class="nav-profile-name">Johnson</span>
+                    <span class="online-status"></span>
+                    <img src="../../images/faces/face28.png" alt="profile"/>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-settings text-primary"></i>
+                        Settings
+                      </a>
+                      <a class="dropdown-item">
+                        <i class="mdi mdi-logout text-primary"></i>
+                        Logout
+                      </a>
+                  </div>
+                </li>
+            </ul>
+            <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="horizontal-menu-toggle">
+              <span class="mdi mdi-menu"></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+      <nav class="bottom-navbar">
+        <div class="container">
+            <ul class="nav page-navigation">
+              <li class="nav-item">
+                <a class="nav-link" href="../../index.html">
+                  <i class="mdi mdi-file-document-box menu-icon"></i>
+                  <span class="menu-title">Consultas</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                  <a href="../../pages/forms/basic_elements.html" class="nav-link">
+                    <i class="mdi mdi-chart-areaspline menu-icon"></i>
+                    <span class="menu-title">Monitoreo</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="../../pages/charts/chartjs.html" class="nav-link">
+                    <i class="mdi mdi-finance menu-icon"></i>
+                    <span class="menu-title">Estadisticas</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="mdi mdi-cube-outline menu-icon"></i>
+                  <span class="menu-title">Administración</span>
+                  <i class="menu-arrow"></i>
+                </a>
+                <div class="submenu">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="../../pages/tables/basic-table.html">Consulta Extendida</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../../pages/tables/basic-table-estimado.html">Consulta Estimado</a></li>
+                    </ul>
+                </div>
+            </li>
+              <li class="nav-item">
+                  <a href="../../pages/icons/mdi.html" class="nav-link">
+                    <i class="mdi mdi-emoticon menu-icon"></i>
+                    <span class="menu-title">Canales de contacto</span>
+                    <i class="menu-arrow"></i>
+                  </a>
+              </li>
+
+              <li class="nav-item">
+                  <a href="../../docs/documentation.html" class="nav-link">
+                    <i class="mdi mdi-file-document-box-outline menu-icon"></i>
+                    <span class="menu-title">Documentation</span></a>
+              </li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+        <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+
+
+                  <div class="row mt-4 mb-4">
+                    <div class="col-lg-12 text-center">
+                      <h2 class="bg-success text-white pt-4 pb-4"><b>Estimado Flujo de caja persona natural</b> </h2>
+
+
+                    </div>
+  
+
+
+
+                  </div>
+
+                  <h4 class="card-title text-success">DATOS BÁSICOS</h4>
+
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <p><b>Nombre</b> &nbsp;&nbsp;&nbsp;&nbsp;JUAN SEBASTIAN ARANGO PÉREZ</p>
+
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p><b>Número documento</b> &nbsp;&nbsp;&nbsp;&nbsp;CC37890123</p>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p><b class="text-success">Relación Laboral</b> &nbsp;&nbsp;&nbsp;&nbsp;Dependiente</p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <p><b>Dirección</b> &nbsp;&nbsp;&nbsp;&nbsp;Calle 26 # 47 - 90</p>
+
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p><b>Celular</b> &nbsp;&nbsp;&nbsp;&nbsp;3009338211</p>
+
+                    </div>
+
+
+
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <p><b>Email</b> &nbsp;&nbsp;&nbsp;&nbsp;juandiego@gmail.com</p>
+
+
+                    </div>
+
+  
+
+
+
+                  </div>
+
+
+
+                  <div class="row mt-4 mb-4">
+                    <div class="col-lg-12 text-center">
+                      <p class="text-success"><b>Empleadores</b> </p>
+
+
+                    </div>
+
+  
+
+
+
+                  </div>
+
+
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>Periodo cotización</th>
+                          <th>Razón social.</th>
+                          <th>Tipo documento</th>
+                          <th>Número documento</th>
+                          <th>Cod. Actividad económica</th>
+                          <th>Actividad económica</th>
+                          <th>Clase aportante</th>
+                          <th>Tipo aportante</th>
+
+
+
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>2022-09</td>
+                          <td>ACH</td>
+                          <td>NIT</td>
+                          <td>900.874.900</td>
+                          <td>6978</td>
+                          <td>Otras actividades auxiliares de las actividades de servicios financieros</td>
+                          <td>Empresas con menos de 200 cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-08</td>
+                          <td>ACH</td>
+                          <td>NIT</td>
+                          <td>900.874.900</td>
+                          <td>6978</td>
+                          <td>Otras actividades auxiliares de las actividades de servicios financieros</td>
+                          <td>Empresas con menos de 200 cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+                        <tr>
+                          <td>2022-07</td>
+                          <td>ACH</td>
+                          <td>NIT</td>
+                          <td>900.874.900</td>
+                          <td>6978</td>
+                          <td>Otras actividades auxiliares de las actividades de servicios financieros</td>
+                          <td>Empresas con menos de 200 cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-06</td>
+                          <td>ACH</td>
+                          <td>NIT</td>
+                          <td>900.874.900</td>
+                          <td>6978</td>
+                          <td>Otras actividades auxiliares de las actividades de servicios financieros</td>
+                          <td>Empresas con menos de 200 cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-05</td>
+                          <td>CLARO COLOMBIA</td>
+                          <td>NIT</td>
+                          <td>800.000.321</td>
+                          <td>744</td>
+                          <td>Otras actividades empresariales n.c.p</td>
+                          <td>Empresas con 200 o más cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-05</td>
+                          <td>CLARO COLOMBIA</td>
+                          <td>NIT</td>
+                          <td>800.000.321</td>
+                          <td>744</td>
+                          <td>Otras actividades empresariales n.c.p</td>
+                          <td>Empresas con 200 o más cotizantes</td>
+                          <td>Empleador</td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+
+
+                  <div class="row mt-4 mb-4">
+                    <div class="col-lg-12 text-center">
+                      <p class="text-success"><b>Flujo de caja</b> </p>
+
+
+                    </div>
+
+  
+
+
+
+                  </div>
+
+
+                  <div class="table-responsive">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th>Periodo cotización</th>
+                          <th>Salario básico</th>
+                          <th>IBC Pensión</th>
+                          <th>IBC Salud</th>
+                          <th>IBC Caja compensación</th>
+                          <th class="bg-success text-white">Transferencias recibidas</th>
+                          <th class="bg-success text-white">Transferencias Enviadas</th>
+                          <th class="bg-success text-white">Transferencias Pagos en línea</th>
+                          <th class="bg-success text-white">Estimado flujo de caja</th>
+
+
+
+
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>2022-09</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$750.000</td>
+                          <td>$251.500</td>
+                          <td>$1.550.900</td>
+                          <td>-$1.052.400</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-08</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$2.000.000</td>
+                          <td>$390.000</td>
+                          <td>$143.000</td>
+                          <td>$1.467.000</td>
+                        </tr>
+
+                        <tr>
+                          <td>2022-07</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$750.000</td>
+                          <td>$251.500</td>
+                          <td>$540.000</td>
+                          <td>-$41.500</td>
+                        </tr>
+
+
+                        <tr>
+                          <td>2022-06</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$750.000</td>
+                          <td>$100.000</td>
+                          <td>$325.555</td>
+                          <td>$324.445</td>
+                        </tr>
+
+
+                        <tr>
+                          <td>2022-05</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$750.000</td>
+                          <td>$250.000</td>
+                          <td>$379.900</td>
+                          <td>$120.100</td>
+                        </tr>
+
+
+
+                        <tr>
+                          <td>2022-04</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$6.500.000</td>
+                          <td>$00</td>
+                          <td>$90.000</td>
+                          <td>$56.000</td>
+                          <td>-$146.000</td>
+                        </tr>
+
+
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div class="row text-center mt-4">
+                    <div class="col-lg-4">
+                      <p  class=""><i class="mdi mdi-information-outline menu-icon"></i> <b class="mr-3">Información correspondiente a los últimos 6 meses</b></p>
+
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p  class="text-success"><b></b></p>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p  class="text-success"><b></b></p>
+
+                    </div>
+
+                  </div>
+
+                  <div class="row text-center">
+                    <div class="col-lg-4">
+                      <p  class="text-success"><b>Promedio transferencias recibidas</b></p>
+                      <p><b>$833.333</b></p>
+
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p  class="text-success"><b>Promedio transferencias enviadas</b></p>
+                      <p><b>$222.167</b></p>
+
+                    </div>
+
+                    <div class="col-lg-4">
+                      <p  class="text-success"><b>Promedio pagos en línea</b></p>
+                      <p><b>$499.226</b></p>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+        <!-- partial:../../partials/_footer.html -->
+        <footer class="footer">
+          <div class="footer-wrap">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+            </div>
+          </div>
+        </footer>
+        <!-- partial -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- base:js -->
+  <script src="../../vendors/base/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page-->
+  <!-- End plugin js for this page-->
+  <!-- inject:js -->
+  <script src="../../js/template.js"></script>
+  <!-- endinject -->
+  <!-- plugin js for this page -->
+  <!-- End plugin js for this page -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+</body>
+
+</html>

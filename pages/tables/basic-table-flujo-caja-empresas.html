@@ -1,0 +1,344 @@
+<html>
+   <head>
+      <style type="text/css">[uib-typeahead-popup].dropdown-menu{display:block;}</style>
+      <style type="text/css">.uib-time input{width:50px;}</style>
+      <style type="text/css">[uib-tooltip-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-html-popup].tooltip.right-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.top-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-left > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.bottom-right > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.left-bottom > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-top > .tooltip-arrow,[uib-tooltip-template-popup].tooltip.right-bottom > .tooltip-arrow,[uib-popover-popup].popover.top-left > .arrow,[uib-popover-popup].popover.top-right > .arrow,[uib-popover-popup].popover.bottom-left > .arrow,[uib-popover-popup].popover.bottom-right > .arrow,[uib-popover-popup].popover.left-top > .arrow,[uib-popover-popup].popover.left-bottom > .arrow,[uib-popover-popup].popover.right-top > .arrow,[uib-popover-popup].popover.right-bottom > .arrow,[uib-popover-html-popup].popover.top-left > .arrow,[uib-popover-html-popup].popover.top-right > .arrow,[uib-popover-html-popup].popover.bottom-left > .arrow,[uib-popover-html-popup].popover.bottom-right > .arrow,[uib-popover-html-popup].popover.left-top > .arrow,[uib-popover-html-popup].popover.left-bottom > .arrow,[uib-popover-html-popup].popover.right-top > .arrow,[uib-popover-html-popup].popover.right-bottom > .arrow,[uib-popover-template-popup].popover.top-left > .arrow,[uib-popover-template-popup].popover.top-right > .arrow,[uib-popover-template-popup].popover.bottom-left > .arrow,[uib-popover-template-popup].popover.bottom-right > .arrow,[uib-popover-template-popup].popover.left-top > .arrow,[uib-popover-template-popup].popover.left-bottom > .arrow,[uib-popover-template-popup].popover.right-top > .arrow,[uib-popover-template-popup].popover.right-bottom > .arrow{top:auto;bottom:auto;left:auto;right:auto;margin:0;}[uib-popover-popup].popover,[uib-popover-html-popup].popover,[uib-popover-template-popup].popover{display:block !important;}</style>
+      <style type="text/css">.uib-datepicker-popup.dropdown-menu{display:block;float:none;margin:0;}.uib-button-bar{padding:10px 9px 2px;}</style>
+      <style type="text/css">.uib-position-measure{display:block !important;visibility:hidden !important;position:absolute !important;top:-9999px !important;left:-9999px !important;}.uib-position-scrollbar-measure{position:absolute !important;top:-9999px !important;width:50px !important;height:50px !important;overflow:scroll !important;}.uib-position-body-scrollbar-measure{overflow:scroll !important;}</style>
+      <style type="text/css">.uib-datepicker .uib-title{width:100%;}.uib-day button,.uib-month button,.uib-year button{min-width:100%;}.uib-left,.uib-right{width:100%}</style>
+      <style type="text/css">.ng-animate.item:not(.left):not(.right){-webkit-transition:0s ease-in-out left;transition:0s ease-in-out left}</style>
+      <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+   </head>
+   <body ng-strict-di="" ng-app="app" class="ng-scope">
+      <build:[href] portal="">
+      <base href="/portal">
+      <meta charset="utf-8">
+      <title>ACH Soi Data 4.0.1</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="assets/images/favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+      <link rel="stylesheet" href="styles/vendor-5f84e82b9a.css">
+      <link rel="stylesheet" href="styles/app-60615e2531.css">
+      </build:[href]><!-- uiView: -->
+      <div ui-view="" class="ng-scope" style="">
+         <div class="root ng-scope">
+            <header class="ng-isolate-scope">
+               <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    
+               <nav class="navbar navbar-default navbar-fixed-top">
+                  <div class="container">
+                     <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> 
+                        <a class="navbar-brand" ui-sref="layout.home" href="/porta/">
+                           <div class="logoHeader"></div>
+                        </a>
+                     </div>
+                     <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('manipulation')}" show-authed="autorizacion-datos-personales.gestionar" style="display: inline-block;"><a ui-sref="layout.manipulation" href="/porta/usodatos">Uso de Datos</a></li>
+                           <li class=" dropdown">
+                              <a data-toggle="dropdown" >Consultas <span class="caret"></span></a>
+                              <ul class="dropdown-menu">
+                                 <li role="menuitem"  class-style="inherit"><a  href="/">Detallada Natural y Jurídica</a></li>
+                                 <li role="menuitem"  class-style="inherit"><a  href="/">Consolidada Natural</a></li>
+                                 <li role="menuitem"  class-style="inherit"><a  href="/">Consolidada Jurídica</a></li>
+                                 <li role="menuitem"  class-style="inherit"><a  href="/">Extendida Natural</a></li>
+                                 <li role="menuitem"  class-style="inherit"><a  href="/">Masivas con Filtros</a></li>
+                                 <li role="menuitem"  class-style="inherit"><a  href="../../pages/tables/basic-table-home.html">Masivas con Filtros</a></li>
+
+                                 <li role="menuitem"  class-style="inherit"><a href="/porta/parametros">Parámetros Consultas</a></li>
+                              </ul>
+                           </li>
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('admin')}" show-authed="usuarios" class="btn-group dropdown" uib-dropdown="" keyboard-nav="" style="display: inline-block;">
+                              <a id="simple-btn-keyboard-nav" type="button" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Administración <span class="caret"></span></a>
+                              <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                                 <li role="menuitem" show-authed="usuarios.entidad" class-style="inherit" style="display: inherit;"><a ui-sref="layout.admin.entidad" href="/porta/admin">Entidades</a></li>
+                                 <li role="menuitem" show-authed="usuarios.usuario" class-style="inherit" style="display: none;"><a ui-sref="layout.admin.users" href="/porta/admin/usuarios">Usuarios</a></li>
+                                 <li role="menuitem" show-authed="usuarios.rol" class-style="inherit" style="display: none;"><a ui-sref="layout.admin.roles" href="/porta/admin/roles">Roles</a></li>
+                                 <li role="menuitem" show-authed="usuarios.usuario" class-style="inherit" style="display: none;"><a ui-sref="layout.admin.usuariosMasivas" href="/porta/admin/usuariosMasivas">Carga Masiva de Usuarios</a></li>
+                                 <li role="menuitem" show-authed="usuarios.usuario" class-style="inherit" style="display: none;"><a ui-sref="layout.admin.dominio" href="/porta/admin/dominios">Cambio de Dominio a Usuarios</a></li>
+                              </ul>
+                           </li>
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('monitoring') || $ctrl.getClassPrincipal('migraciones') || $ctrl.getClassPrincipal('reversiones')}" show-authed="monitoreo" class="btn-group dropdown" uib-dropdown="" keyboard-nav="" style="display: inline-block;">
+                              <a id="simple-btn-keyboard-nav" type="button" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Monitoreo <span class="caret"></span></a>
+                              <ul class="dropdown-menu" uib-dropdown-menu="" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                                 <li role="menuitem" show-authed="monitoreo.tablero-control" class-style="inherit" style="display: inherit;"><a ui-sref="layout.monitoring.main" href="/porta/monitoreo">Consultas</a></li>
+                                 <li role="menuitem" show-authed="monitoreo.proceso-migracion" class-style="inherit" style="display: inherit;"><a ui-sref="layout.migraciones" href="/porta/migraciones">Estado Migración</a></li>
+                                 <li role="menuitem" show-authed="monitoreo.planilla" class-style="inherit" style="display: inherit;"><a ui-sref="layout.reversiones" href="/porta/reversiones">Revertir / Remigrar</a></li>
+                                 <li role="menuitem" show-authed="monitoreo.procesamiento-archivo" class-style="inherit" style="display: inherit;"><a ui-sref="layout.reintentar" href="/porta/reintentar">Reintentar Migrar</a></li>
+                              </ul>
+                           </li>
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('statistics')}" show-authed="estadisticas" style="display: inline-block;"><a ui-sref="layout.statistics" href="/porta/estadisticas">Estadísticas</a></li>
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('audit')}" show-authed="auditoria.reporte-auditoria" style="display: inline-block;"><a ui-sref="layout.audit" href="/porta/auditoria">Auditoría</a></li>
+                           <li><a href="#" show-authed="contacto" style="display: none;">Canales de contacto</a></li>
+                           <li ng-class="{'active' : $ctrl.getClassPrincipal('contacto')}" show-authed="usuarios" class="btn-group dropdown" uib-dropdown="" keyboard-nav="" style="display: inline-block;">
+                              <a id="simple-btn-keyboard-nav2" type="button" uib-dropdown-toggle="" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">Canales de contacto <span class="caret"></span></a>
+                              <ul class="dropdown-menu canContac" uib-dropdown-menu="" role="menu" aria-labelledby="simple-btn-keyboard-nav">
+                                 <li>
+                                    <p><strong>Horario de atención</strong></p>
+                                 </li>
+                                 <li>
+                                    <p>lunes a viernes de 7 am a 7 pm.</p>
+                                 </li>
+                                 <li>
+                                    <strong>
+                                       <p>Teléfono de contacto</p>
+                                    </strong>
+                                 </li>
+                                 <li>
+                                    <p>1-5938300 / extensión - 2226</p>
+                                 </li>
+                                 <li role="separator" class="divider"></li>
+                                 <li><a type="button" href="https://mesadeayuda.achcolombia.com.co/sm/ess.do" target="_blank" class="btn btn-primary btn-block">Mesa de ayuda</a></li>
+                              </ul>
+                           </li>
+                           <li class="dropdown" uib-dropdown="" is-open="status.isopen">
+                              <a id="single-button" class="dropdown-toggle" uib-dropdown-toggle="" aria-haspopup="true" aria-expanded="false">
+                                 <div class="userImg"></div>
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li>
+                                    <div class="nameRol ng-binding">jainer.quiceno@alejandria-consulting.com<span></span></div>
+                                 </li>
+                                 <!-- ngIf: $ctrl.isCurrentUserAch() -->
+                                 <li role="separator" class="divider"></li>
+                                 <li><button type="button" ng-click="$ctrl.logout()" class="btn btn-primary btn-block">Cerrar sesión</button></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </nav>
+            </header>
+            <!-- uiView: -->
+            <div class="content ng-scope" ui-view="" style="">
+               <juridicas class="ng-scope ng-isolate-scope">
+                  <div class="content-body">
+                     <div class="titGen">
+                        <h1>CONSULTA EXTENDIDA DE PERSONA JURÍDICA</h1>
+                     </div>
+                     <div class="container" style="width: 85%;">
+                        <div class="consul">
+ 
+                           <!-- ngIf: $ctrl.tipoConsulta === 'Masiva' --><!-- ngIf: $ctrl.mostrarInformacionIndividual -->
+                           <div ng-if="$ctrl.mostrarInformacionIndividual" class="ng-scope" style="">
+                              <div class="">
+                                 <div class="row">
+                                    <div class="tit" style="padding-bottom: 1rem;">
+                                       <h3 style="font-weight: 400">INFORMACIÓN EMPLEADOR</h3>
+                                    </div>
+                                    <div style="display: grid; grid-template-columns: auto auto auto auto; grid-gap: 5px;grid-auto-rows: minmax(50px, auto); padding-top: 1.5rem">
+
+                                       <div>
+                                          <div><label style="font-weight: 400;">Razón social</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.razonSocial">TRANSPORTES MUNICIPIO DE ANTIOQUIA</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;">Periodo cotización</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.periodoCotizacion">2022-01</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;">Total empleados</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.totalEmpleados">61</label></div>
+                                       </div>
+                                       <div>
+                                          <div class="text-success"><label style="font-weight: 400;">Total transacciones enviadas</label></div>
+                                          <div><label class="font-filtros ng-binding">$&nbsp;125.000.000</label></div>
+                                       </div>
+
+
+
+                                       <div>
+                                          <div><label style="font-weight: 400">Tipo y número de documento</label></div>
+                                          <div><label style="text-transform: capitalize;" class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.tipoDocumento + $ctrl.informacionJuridicaConsolidada.nroDocumento">NI900800700</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;">Clase aportante</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.claseAportante">EMPRESAS CON MENOS DE 200 COTIZANTES</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;">Total aportes</label></div>
+                                          <div><label class="font-filtros ng-binding">$&nbsp;58.000.000</label></div>
+                                       </div>
+                                       <div>
+                                          <div class="text-success"><label style="font-weight: 400;">Total transacciones recibidas</label></div>
+                                          <div><label class="font-filtros ng-binding">$&nbsp;436.000.000</label></div>
+                                       </div>
+
+
+                                       <div>
+                                          <div><label style="font-weight: 400;">Actividad económica</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.actividadEconomica">Comercio al por menor de artículos de segunda mano.</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;">Tipo aportante</label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.claseAportante">Empleador</label></div>
+                                       </div>
+                                       <div>
+                                          <div><label style="font-weight: 400;"></label></div>
+                                          <div><label class="font-filtros ng-binding" ng-bind="$ctrl.informacionJuridicaConsolidada.actividadEconomica"></label></div>
+                                       </div>
+                                       <div>
+                                          <div class="text-success"><label style="font-weight: 400;">Total pagos en línea</label></div>
+                                          <div><label class="font-filtros ng-binding">$&nbsp;122.800.000</label></div>
+                                       </div>
+
+                                    </div>
+  
+
+                                       <div class="tit" style="padding-bottom: 1rem; padding-top: 2rem;">
+
+                                          <div class="row">
+                                       <div class="col-lg-5">
+                                          <h3 style="font-weight: 400">DETALLE RANGO SALARIAL</h3>
+
+                                          </div>
+                                          <div class="col-lg-7" style="padding: 0 0 0 7rem">
+                                             <h3 style="font-weight: 400">DETALLE APORTES</h3>
+
+                                          </div>
+                                       </div>
+
+                                    </div>
+                                    <!-- ngIf: $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso.length > 0 -->
+                                    <div class="col-lg-5 ng-scope" ng-if="$ctrl.informacionJuridicaConsolidada.detalleRangoIngreso.length > 0" style="padding: 0 0 0 0">
+                                       <div class="tabla">
+                                          <div style="background-color: #F1F1F1; border-bottom: #8BC441 1px solid; position:relative; display: flex; align-items: center; text-align: center;">
+                                             <div style="width: 55%; display:inline-block;">
+                                                <div style="position:relative;">
+                                                   <div style="display:inline-block; margin-right: 2%;"><label class="font-filtros" style="font-weight: 400;">Límite inferior</label></div>
+                                                   <div style="display:inline-block; margin-left: 2%"><label class="font-filtros" style="font-weight: 400;">Límite superior</label></div>
+                                                </div>
+                                             </div>
+                                             <div style="width: 20%; display:inline-block;"><label class="font-filtros" style="font-weight: 400;">Empleados</label></div>
+                                             <div style="width: 25%; display:inline-block;"><label class="font-filtros" style="font-weight: 400;">Participación</label></div>
+                                          </div>
+                                          <table class="table table-striped">
+                                             <thead>
+                                                <tr></tr>
+                                             </thead>
+                                             <tbody>
+                                                <!-- ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso -->
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso" class="ng-scope">
+                                                   <td style="width: 26%;"><label class="font-filtros ng-binding">$&nbsp;0</label></td>
+                                                   <!-- ngIf: result.limiteSuperior !== 0 -->
+                                                   <td style="width: 29%;" ng-if="result.limiteSuperior !== 0" class="ng-scope"><label class="font-filtros ng-binding">$&nbsp;1.000.000</label></td>
+                                                   <!-- end ngIf: result.limiteSuperior !== 0 --><!-- ngIf: result.limiteSuperior === 0 -->
+                                                   <td style="text-align:center; width: 20%;"><label class="font-filtros ng-binding">33</label></td>
+                                                   <td style="text-align:center; width: 25%;"><label class="font-filtros ng-binding">54%</label></td>
+                                                </tr>
+                                                <!-- end ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso -->
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso" class="ng-scope">
+                                                   <td style="width: 26%;"><label class="font-filtros ng-binding">$&nbsp;1.000.001</label></td>
+                                                   <!-- ngIf: result.limiteSuperior !== 0 --><!-- ngIf: result.limiteSuperior === 0 -->
+                                                   <td style="width: 26%;"><label class="font-filtros ng-binding">$&nbsp;2.000.000</label></td>
+
+                                                   <td style="text-align:center; width: 20%;"><label class="font-filtros ng-binding">19</label></td>
+                                                   <td style="text-align:center; width: 25%;"><label class="font-filtros ng-binding">31%</label></td>
+                                                </tr>
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso" class="ng-scope">
+                                                   <td style="width: 26%;"><label class="font-filtros ng-binding">$&nbsp;2.000.0001</label></td>
+                                                   <!-- ngIf: result.limiteSuperior !== 0 -->
+                                                   <td style="width: 29%;" ng-if="result.limiteSuperior !== 0" class="ng-scope"><label class="font-filtros ng-binding">$&nbsp;3.000.000</label></td>
+                                                   <!-- end ngIf: result.limiteSuperior !== 0 --><!-- ngIf: result.limiteSuperior === 0 -->
+                                                   <td style="text-align:center; width: 20%;"><label class="font-filtros ng-binding">7</label></td>
+                                                   <td style="text-align:center; width: 25%;"><label class="font-filtros ng-binding">11%</label></td>
+                                                </tr>
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso" class="ng-scope">
+                                                   <td style="width: 26%;"><label class="font-filtros ng-binding">$&nbsp;3.000.0001</label></td>
+                                                   <!-- ngIf: result.limiteSuperior !== 0 -->
+                                                   <td style="width: 29%;" ng-if="result.limiteSuperior !== 0" class="ng-scope"><label class="font-filtros ng-binding"></label></td>
+                                                   <!-- end ngIf: result.limiteSuperior !== 0 --><!-- ngIf: result.limiteSuperior === 0 -->
+                                                   <td style="text-align:center; width: 20%;"><label class="font-filtros ng-binding">2</label></td>
+                                                   <td style="text-align:center; width: 25%;"><label class="font-filtros ng-binding">3%</label></td>
+                                                </tr>
+                                                <!-- end ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso -->
+                                                <tr>
+                                                   <td><label class="font-filtros" style="font-weight: 400;">Totales</label></td>
+                                                   <td></td>
+                                                   <td style="text-align:center"><label class="font-filtros ng-binding" style="font-weight: 400;">61</label></td>
+                                                   <td style="text-align:center"><label class="font-filtros" style="font-weight: 400;">100%</label></td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </div>
+                                    </div>
+                                    <!-- end ngIf: $ctrl.informacionJuridicaConsolidada.detalleRangoIngreso.length > 0 --><!-- ngIf: $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla.length > 0 -->
+                                    <div class="col-lg-7 ng-scope" ng-if="$ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla.length > 0" style="padding: 0 0 0 7rem">
+                                       <div class="tabla" style="padding: 0 0 0 0">
+                                          <table class="table table-striped">
+                                             <thead>
+                                                <tr style="text-align: center;" "="">
+                                                   <th><label class="font-filtros" style="font-weight: 400;">Tipo de planilla</label></th>
+                                                   <th><label class="font-filtros" style="font-weight: 400;">Fecha de pago</label></th>
+                                                   <th><label class="font-filtros" style="font-weight: 400;">Días de mora</label></th>
+                                                   <th><label class="font-filtros" style="font-weight: 400;">Valor aportes</label></th>
+                                                </tr>
+                                             </thead>
+                                             <tbody>
+                                                <!-- ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla -->
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla" class="ng-scope">
+                                                   <td><label class="font-filtros ng-binding">E-EMPLEADOS</label></td>
+                                                   <td><label class="font-filtros ng-binding">2022-07-25</label></td>
+                                                   <td style="text-align: center;"><label class="font-filtros ng-binding">3</label></td>
+                                                   <td style="text-align: center;"><label class="font-filtros ng-binding">$&nbsp;9.259.800</label></td>
+                                                </tr>
+                                                <!-- end ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla -->
+                                                <tr ng-repeat="result in $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla" class="ng-scope">
+                                                   <td><label class="font-filtros ng-binding">A-COTIZANTES CON NOVEDAD DE INGRESO</label></td>
+                                                   <td><label class="font-filtros ng-binding">2022-11-29</label></td>
+                                                   <td style="text-align: center;"><label class="font-filtros ng-binding">1</label></td>
+                                                   <td style="text-align: center;"><label class="font-filtros ng-binding">$&nbsp;12.642.700</label></td>
+                                                </tr>
+                                                <!-- end ngRepeat: result in $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla -->
+                                             </tbody>
+                                          </table>
+                                       </div>
+                                    </div>
+                                    <!-- end ngIf: $ctrl.informacionJuridicaConsolidada.detalleTipoPlanilla.length > 0 -->
+                                 </div>
+
+                              </div>
+                           </div>
+                           <!-- end ngIf: $ctrl.mostrarInformacionIndividual --><!-- ngIf: $ctrl.tipoConsulta === 'Masiva' -->
+                        </div>
+                     </div>
+                  </div>
+               </juridicas>
+            </div>
+            <footer class="ng-isolate-scope">
+               <div class="container-fluid">
+                  <div class="logAch">
+                     <div class="ima">
+                        <div class="imgFooter"></div>
+                     </div>
+                     <div class="txt">Copyright © ACH Colombia</div>
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+      <script src="../../scripts/bootstrap.min.js"></script>
+
+   </body>
+</html>
